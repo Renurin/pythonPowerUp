@@ -19,7 +19,7 @@ pyautogui.press('enter')
 # Step 3: Import the database to get the products
 
 import pandas as pd
-products = pd.read_csv("C:\\Users\\Renan\\Desktop\\Pasta_do_Renan_=)\\Python\\pythonPowerUp\\pythonPowerUp\\Automation\\produtos.csv") # insert full path (not gonna commit path)
+products = pd.read_csv("produtos.csv") # insert full path (not gonna commit path)
 
 
 # Step 4: Record a product in the website
